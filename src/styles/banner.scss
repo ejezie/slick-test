@@ -1,0 +1,28 @@
+.banner {
+  height: 550px;
+  width: 100vw;
+  background: url(../assets/image/bannerbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .heading {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: -0.05em;
+    color: white;
+    max-width: 300px;
+    margin-left: 65px;
+  }
+  @media (max-width: 820px) {
+    justify-content: center;
+    .heading {
+      margin-left: 0;
+      text-align: center;
+      font-size: 60px;
+      line-height: 74px;
+    }
+  }
+}

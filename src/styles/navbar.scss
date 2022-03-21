@@ -1,0 +1,21 @@
+.navbar {
+  width: 100vw;
+  height: 140px;
+  background: #292929;
+  display: flex;
+  align-items: center;
+  .logo {
+    color: white;
+    border: 1px solid #ffffff;
+    width: 163px;
+    height: 60px;
+    margin-left: 65px;
+    font-size: 1.5rem;
+  }
+   @media (max-width: 820px) {
+    justify-content: center;
+    .logo{
+      margin-left: 0;
+    }
+  }
+}

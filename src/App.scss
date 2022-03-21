@@ -1,0 +1,11 @@
+@import "./styles/navbar.scss";
+@import "./styles/banner.scss";
+@import "./styles/row.scss";
+
+
+// Genaral Classes
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
