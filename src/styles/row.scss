@@ -9,6 +9,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+     overflow-x: scroll;
     .title {
       font-weight: 400;
       font-size: 24px;
